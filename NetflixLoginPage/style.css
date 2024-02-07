@@ -294,6 +294,17 @@ img{
     width: 50%;
 }
 
+.questions p{
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: #303030;
+    color: white;
+    text-align: left;
+    width: 50%;
+    display: none;
+} 
+
 .faq p{
     padding-top: 60px;
     font-size: 1.2rem;
