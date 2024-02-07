@@ -33,3 +33,21 @@ const ignorep = document.querySelector('.ignorep')
 ignore.addEventListener('click',()=>{
     document.querySelector(".ignorep").style.display = "block"
 })
+
+const headerButton = document.querySelector('.btn');
+const showButton = document.querySelector('.show');
+const footerButton = document.querySelector('.FooterButton');
+
+runEventListener();
+
+function runEventListener(){
+    headerButton.addEventListener("click",()=>{
+        window.open("http://127.0.0.1:5500/index.html")
+    })
+    showButton.addEventListener("click",()=>{
+        window.open("http://127.0.0.1:5500/index.html")
+    })
+    footerButton.addEventListener("click",()=>{
+        window.open("http://127.0.0.1:5500/index.html")
+    })
+}
