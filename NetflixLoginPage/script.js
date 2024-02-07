@@ -38,6 +38,8 @@ const headerButton = document.querySelector('.btn');
 const showButton = document.querySelector('.show');
 const footerButton = document.querySelector('.FooterButton');
 
+const phoneNumber = document.querySelector(".u")
+
 runEventListener();
 
 function runEventListener(){
@@ -49,5 +51,8 @@ function runEventListener(){
     })
     footerButton.addEventListener("click",()=>{
         window.open("http://127.0.0.1:5500/index.html")
+    })
+        phoneNumber.addEventListener("click",()=>{
+        alert("https://www.netflix.com bu uygulamayı açmak istiyor.")
     })
 }
